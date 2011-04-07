@@ -1,0 +1,1136 @@
+This is pdfTeXk, Version 3.1415926-1.40.9 (Web2C 7.5.7) (format=pdflatex 2009.9.25)  7 APR 2011 14:01
+entering extended mode
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**exam.tex
+(./exam.tex
+LaTeX2e <2005/12/01>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, german-x-2008-06-18, ngerman-x-2008-06-18, ancientgreek, ibycus, ar
+abic, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danish, dutc
+h, esperanto, estonian, farsi, finnish, french, galician, german, ngerman, mono
+greek, greek, hungarian, icelandic, indonesian, interlingua, irish, italian, la
+tin, lithuanian, mongolian, mongolian2a, bokmal, nynorsk, polish, portuguese, r
+omanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, turki
+sh, ukenglish, ukrainian, uppersorbian, welsh, loaded.
+(/usr/local/texlive/2008/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2005/09/16 v1.4f Standard LaTeX document class
+(/usr/local/texlive/2008/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/Users/nybohansen/texmf/tex/latex/nybohansenPreamble.sty
+Package: nybohansenPreamble 
+
+(/usr/local/texlive/2008/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2006/05/05 v1.1b Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+(/usr/local/texlive/2008/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2006/03/30 v1.1i UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encodingT1
+
+(/usr/local/texlive/2008/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2006/03/30 v1.1i UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encodingOT1
+
+(/usr/local/texlive/2008/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2006/03/30 v1.1i UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encodingOMS
+
+(/usr/local/texlive/2008/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2006/03/30 v1.1i UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+(/usr/local/texlive/2008/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2008/07/06 v3.8l The Babel package
+
+(/usr/local/texlive/2008/texmf-dist/tex/generic/babel/danish.ldf
+Language: danish 2008/07/06 v1.3q Danish support from the babel system
+
+(/usr/local/texlive/2008/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2008/07/06 v3.8l Babel common definitions
+\babel@savecnt=\count87
+\U@D=\dimen103
+)
+Package babel Info: Making " an active character on input line 82.
+)
+(/usr/local/texlive/2008/texmf-dist/tex/generic/babel/english.ldf
+Language: english 2005/03/30 v3.3o English support from the babel system
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(/usr/local/texlive/2008/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/local/texlive/2008/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+(/usr/local/texlive/2008/texmf-dist/tex/latex/listings/listings.sty
+(/usr/local/texlive/2008/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+\lst@mode=\count88
+\lst@gtempboxa=\box26
+\lst@token=\toks17
+\lst@length=\count89
+\lst@currlwidth=\dimen104
+\lst@column=\count90
+\lst@pos=\count91
+\lst@lostspace=\dimen105
+\lst@width=\dimen106
+\lst@newlines=\count92
+\lst@lineno=\count93
+\lst@maxwidth=\dimen107
+
+(/usr/local/texlive/2008/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+\c@lstnumber=\count94
+\lst@skipnumbers=\count95
+\lst@framebox=\box27
+)
+(/usr/local/texlive/2008/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2007/02/22 1.4 listings configuration
+))
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
+
+(/usr/local/texlive/2008/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip43
+\f@ncyO@elh=\skip44
+\f@ncyO@erh=\skip45
+\f@ncyO@olh=\skip46
+\f@ncyO@orh=\skip47
+\f@ncyO@elf=\skip48
+\f@ncyO@erf=\skip49
+\f@ncyO@olf=\skip50
+\f@ncyO@orf=\skip51
+)
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 29.
+
+(/usr/local/texlive/2008/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip52
+\subfigcapskip=\skip53
+\subfigcaptopadj=\dimen108
+\subfigbottomskip=\skip54
+\subfigcapmargin=\dimen109
+\subfiglabelskip=\skip55
+\c@subfigure=\count96
+\c@lofdepth=\count97
+\c@subtable=\count98
+\c@lotdepth=\count99
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/local/texlive/2008/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip56
+\subfig@bottom=\skip57
+)
+(/usr/local/texlive/2008/texmf-dist/tex/latex/memoir/memhfixc.sty
+Package: memhfixc 2009/02/06 v1.12 nameref/hyperref package fixes for memoir cl
+ass
+
+No memoir class: memhfixc does nothing
+) (/usr/local/texlive/2008/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2008/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2008/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2008/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks18
+)
+(/usr/local/texlive/2008/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+) (/usr/local/texlive/2008/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2008/02/20 v2.00 (rcs-revision 1.21)
+))
+Package: pgf 2008/01/15 v2.00 (rcs-revision 1.12)
+ (/usr/local/texlive/2008/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2008/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2008/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2006/02/20 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2008/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2008/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 90.
+
+(/usr/local/texlive/2008/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2008/09/08 v0.04l Graphics/color for pdfTeX
+\Gread@gobject=\count100
+))
+\Gin@req@height=\dimen110
+\Gin@req@width=\dimen111
+)
+(/usr/local/texlive/2008/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2008/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2008/02/07 v2.00 (rcs-revision 1.31)
+(/usr/local/texlive/2008/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks19
+\pgfkeys@temptoks=\toks20
+)
+\pgf@x=\dimen112
+\pgf@y=\dimen113
+\pgf@xa=\dimen114
+\pgf@ya=\dimen115
+\pgf@xb=\dimen116
+\pgf@yb=\dimen117
+\pgf@xc=\dimen118
+\pgf@yc=\dimen119
+\c@pgf@counta=\count101
+\c@pgf@countb=\count102
+\c@pgf@countc=\count103
+\c@pgf@countd=\count104
+(/usr/local/texlive/2008/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/01/13  (rcs-revision 1.6)
+)
+Package pgfsys Info: Driver file for pgf: pgfsys-pdftex.def on input line 885.
+
+(/usr/local/texlive/2008/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+ef
+File: pgfsys-pdftex.def 2007/12/20  (rcs-revision 1.20)
+
+(/usr/local/texlive/2008/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2007/12/17  (rcs-revision 1.8)
+)))
+(/usr/local/texlive/2008/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2008/01/23  (rcs-revision 1.6)
+\pgfsyssoftpath@smallbuffer@items=\count105
+\pgfsyssoftpath@bigbuffer@items=\count106
+)
+(/usr/local/texlive/2008/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+)) (/usr/local/texlive/2008/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2008/texmf/tex/latex/config/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/usr/local/texlive/2008/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2008/01/15 v2.00 (rcs-revision 1.6)
+(/usr/local/texlive/2008/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2008/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2008/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex
+\pgfmath@box=\box28
+)
+(/usr/local/texlive/2008/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@stack=\toks21
+\c@pgfmath@parsecounta=\count107
+\c@pgfmath@parsecountb=\count108
+\c@pgfmath@parsecountc=\count109
+\pgfmath@parsex=\dimen120
+)
+(/usr/local/texlive/2008/texmf-dist/tex/generic/pgf/math/pgfmathoperations.code
+.tex
+(/usr/local/texlive/2008/texmf-dist/tex/generic/pgf/math/pgfmathtrig.code.tex)
+(/usr/local/texlive/2008/texmf-dist/tex/generic/pgf/math/pgfmathrnd.code.tex))
+(/usr/local/texlive/2008/texmf-dist/tex/generic/pgf/math/pgfmathbase.code.tex))
+)
+(/usr/local/texlive/2008/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2008/02/03  (rcs-revision 1.13)
+\pgf@picminx=\dimen121
+\pgf@picmaxx=\dimen122
+\pgf@picminy=\dimen123
+\pgf@picmaxy=\dimen124
+\pgf@pathminx=\dimen125
+\pgf@pathmaxx=\dimen126
+\pgf@pathminy=\dimen127
+\pgf@pathmaxy=\dimen128
+\pgf@xx=\dimen129
+\pgf@xy=\dimen130
+\pgf@yx=\dimen131
+\pgf@yy=\dimen132
+\pgf@zx=\dimen133
+\pgf@zy=\dimen134
+)
+(/usr/local/texlive/2008/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2008/02/13  (rcs-revision 1.14)
+\pgf@path@lastx=\dimen135
+\pgf@path@lasty=\dimen136
+)
+(/usr/local/texlive/2008/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2008/01/23  (rcs-revision 1.11)
+\pgf@shorten@end@additional=\dimen137
+\pgf@shorten@start@additional=\dimen138
+)
+(/usr/local/texlive/2008/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2008/01/15  (rcs-revision 1.26)
+\pgfpic=\box29
+\pgf@hbox=\box30
+\pgf@layerbox@main=\box31
+\pgf@picture@serial@count=\count110
+)
+(/usr/local/texlive/2008/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2007/12/12  (rcs-revision 1.8)
+\pgflinewidth=\dimen139
+)
+(/usr/local/texlive/2008/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2008/02/04  (rcs-revision 1.10)
+\pgf@pt@x=\dimen140
+\pgf@pt@y=\dimen141
+\pgf@pt@temp=\dimen142
+)
+(/usr/local/texlive/2008/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/local/texlive/2008/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/local/texlive/2008/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2008/01/23  (rcs-revision 1.7)
+)
+(/usr/local/texlive/2008/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2007/06/07  (rcs-revision 1.8)
+)
+(/usr/local/texlive/2008/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2007/12/10  (rcs-revision 1.9)
+\pgf@max=\dimen143
+\pgf@sys@shading@range@num=\count111
+)
+(/usr/local/texlive/2008/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2008/01/15  (rcs-revision 1.1)
+\pgfexternal@startupbox=\box32
+)
+(/usr/local/texlive/2008/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2008/01/15  (rcs-revision 1.1)
+)
+(/usr/local/texlive/2008/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2008/01/17  (rcs-revision 1.2)
+)
+(/usr/local/texlive/2008/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2008/01/15  (rcs-revision 1.1)
+)))
+(/usr/local/texlive/2008/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2008/02/13  (rcs-revision 1.4)
+\pgfnodeparttextbox=\box33
+\toks@savedmacro=\toks22
+)
+(/usr/local/texlive/2008/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2008/01/15  (rcs-revision 1.1)
+\pgf@plotwrite=\write3
+)
+(/usr/local/texlive/2008/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v2.00 (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen144
+\pgf@nodesepend=\dimen145
+)
+(/usr/local/texlive/2008/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v2.00 (rcs-revision 1.1)
+))
+(/usr/local/texlive/2008/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2008/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2007/11/07 v2.00 (rcs-revision 1.8)
+\pgffor@iter=\dimen146
+\pgffor@skip=\dimen147
+))
+(/usr/local/texlive/2008/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2008/02/13 v2.00 (rcs-revision 1.27)
+
+(/usr/local/texlive/2008/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2007/03/09 v2.00 (rcs-revision 1.9)
+\pgf@plot@mark@count=\count112
+\pgfplotmarksize=\dimen148
+)
+\tikz@lastx=\dimen149
+\tikz@lasty=\dimen150
+\tikz@lastxsaved=\dimen151
+\tikz@lastysaved=\dimen152
+\tikzleveldistance=\dimen153
+\tikzsiblingdistance=\dimen154
+\tikz@figbox=\box34
+\tikz@tempbox=\box35
+\tikztreelevel=\count113
+\tikznumberofchildren=\count114
+\tikznumberofcurrentchild=\count115
+\tikz@fig@count=\count116
+
+(/usr/local/texlive/2008/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2008/01/15  (rcs-revision 1.1)
+\pgfmatrixcurrentrow=\count117
+\pgfmatrixcurrentcolumn=\count118
+\pgf@matrix@numberofcolumns=\count119
+)
+\tikz@expandcount=\count120
+
+(/usr/local/texlive/2008/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/01/09 v2.00 (rcs-revision 1.1)
+)))
+(/usr/local/texlive/2008/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2008/02/04 v2.00 (rcs-revision 1.5)
+)
+(/usr/local/texlive/2008/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarysnakes.code.tex
+File: tikzlibrarysnakes.code.tex 2008/02/05 v2.00 (rcs-revision 1.6)
+
+
+Package tikz Warning: Snakes have been superseded by decorations. Please use th
+e decoration libraries instead of the snakes library on input line 14.
+
+
+(/usr/local/texlive/2008/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.pathmorphing.code.tex
+(/usr/local/texlive/2008/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.code.tex
+(/usr/local/texlive/2008/texmf-dist/tex/generic/pgf/modules/pgfmoduledecoration
+s.code.tex
+\pgfdecoratedcompleteddistance=\dimen155
+\pgfdecoratedremainingdistance=\dimen156
+\pgfdecoratedinputsegmentcompleteddistance=\dimen157
+\pgfdecoratedinputsegmentremainingdistance=\dimen158
+\pgf@decorate@distancetomove=\dimen159
+\pgf@decorate@repeatstate=\count121
+\pgfdecorationsegmentamplitude=\dimen160
+\pgfdecorationsegmentlength=\dimen161
+))
+(/usr/local/texlive/2008/texmf-dist/tex/generic/pgf/libraries/pgflibrarydecorat
+ions.pathmorphing.code.tex))
+(/usr/local/texlive/2008/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.pathreplacing.code.tex
+(/usr/local/texlive/2008/texmf-dist/tex/generic/pgf/libraries/pgflibrarydecorat
+ions.pathreplacing.code.tex))
+(/usr/local/texlive/2008/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.shapes.code.tex
+(/usr/local/texlive/2008/texmf-dist/tex/generic/pgf/libraries/pgflibrarydecorat
+ions.shapes.code.tex)))
+(/usr/local/texlive/2008/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytrees.code.tex
+File: tikzlibrarytrees.code.tex 2008/01/09 v2.00 (rcs-revision 1.1)
+)
+(/usr/local/texlive/2008/texmf-dist/tex/latex/ltxmisc/underscore.sty
+Package: underscore 2006/09/13
+LaTeX Info: Redefining \_ on input line 42.
+)
+(/usr/local/texlive/2008/texmf-dist/tex/latex/ltxmisc/url.sty
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+(/usr/local/texlive/2008/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2009/02/22 v6.78p Hypertext links for LaTeX
+
+(/usr/local/texlive/2008/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2007/12/12 v1.6 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in pdf mode detected.
+)
+(/usr/local/texlive/2008/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2008/11/04 v1.4 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2008/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2009/01/23 v0.5 Provides ifxetex conditional
+)
+(/usr/local/texlive/2008/texmf-dist/tex/latex/oberdiek/hycolor.sty
+Package: hycolor 2008/09/08 v1.4 Code for color options of hyperref/bookmark (H
+O)
+
+(/usr/local/texlive/2008/texmf-dist/tex/latex/oberdiek/xcolor-patch.sty
+Package: xcolor-patch 2008/09/08 xcolor patch
+))
+\@linkdim=\dimen162
+\Hy@linkcounter=\count122
+\Hy@pagecounter=\count123
+
+(/usr/local/texlive/2008/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2009/02/22 v6.78p Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/local/texlive/2008/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2007/12/12 v1.2 Prefix for e-TeX command names (HO)
+
+(/usr/local/texlive/2008/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2007/09/09 v1.2 Providing info/warning/message (HO)
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)
+(/usr/local/texlive/2008/texmf/tex/latex/config/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+(/usr/local/texlive/2008/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2007/10/18 v3.0 Keyval support for LaTeX options (HO)
+)
+Package hyperref Info: Option `bookmarks' set `true' on input line 2824.
+Package hyperref Info: Option `colorlinks' set `true' on input line 2824.
+Package hyperref Info: Option `plainpages' set `false' on input line 2824.
+Package hyperref Info: Option `pdfpagelabels' set `true' on input line 2824.
+Package hyperref Info: Hyper figures OFF on input line 2935.
+Package hyperref Info: Link nesting OFF on input line 2940.
+Package hyperref Info: Hyper index ON on input line 2943.
+Package hyperref Info: Plain pages OFF on input line 2950.
+Package hyperref Info: Backreferencing OFF on input line 2955.
+
+Implicit mode ON; LaTeX internals redefined
+Package hyperref Info: Bookmarks ON on input line 3145.
+LaTeX Info: Redefining \url on input line 3382.
+(/usr/local/texlive/2008/texmf-dist/tex/generic/oberdiek/bitset.sty
+Package: bitset 2007/09/28 v1.0 Data type bit set (HO)
+
+(/usr/local/texlive/2008/texmf-dist/tex/generic/oberdiek/intcalc.sty
+Package: intcalc 2007/09/27 v1.1 Expandable integer calculations (HO)
+)
+(/usr/local/texlive/2008/texmf-dist/tex/generic/oberdiek/bigintcalc.sty
+Package: bigintcalc 2007/11/11 v1.1 Expandable big integer calculations (HO)
+
+(/usr/local/texlive/2008/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2007/12/12 v0.3 LuaTeX support for pdfTeX utility functions
+ (HO)
+Package pdftexcmds Info: LuaTeX not detected on input line 139.
+)))
+(/usr/local/texlive/2008/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2007/09/29 v1.3 Key value parser with default handler suppor
+t (HO)
+)
+\Fld@menulength=\count124
+\Field@Width=\dimen163
+\Fld@charsize=\dimen164
+\Field@toks=\toks23
+Package hyperref Info: Hyper figures OFF on input line 4299.
+Package hyperref Info: Link nesting OFF on input line 4304.
+Package hyperref Info: Hyper index ON on input line 4307.
+Package hyperref Info: backreferencing OFF on input line 4314.
+Package hyperref Info: Link coloring ON on input line 4317.
+Package hyperref Info: Link coloring with OCG OFF on input line 4324.
+Package hyperref Info: PDF/A mode OFF on input line 4329.
+
+(/usr/local/texlive/2008/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2008/07/31 v1.9 At begin shipout hook (HO)
+)
+\Hy@abspage=\count125
+\c@Item=\count126
+\c@Hfootnote=\count127
+)
+*hyperref using default driver hpdftex*
+(/usr/local/texlive/2008/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2009/02/22 v6.78p Hyperref driver for pdfTeX
+\Fld@listcount=\count128
+)
+(/usr/local/texlive/2008/texmf-dist/tex/latex/algorithms/algorithmic.sty
+Package: algorithmic 2006/06/02
+
+Document Style `algorithmic' - environment
+(/usr/local/texlive/2008/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2008/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2005/08/06 v4.2 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count129
+\calc@Bcount=\count130
+\calc@Adimen=\dimen165
+\calc@Bdimen=\dimen166
+\calc@Askip=\skip58
+\calc@Bskip=\skip59
+LaTeX Info: Redefining \setlength on input line 75.
+LaTeX Info: Redefining \addtolength on input line 76.
+\calc@Ccount=\count131
+\calc@Cskip=\skip60
+)
+\c@ALC@line=\count132
+\c@ALC@rem=\count133
+\c@ALC@depth=\count134
+\ALC@tlm=\skip61
+\algorithmicindent=\skip62
+)
+(/usr/local/texlive/2008/texmf-dist/tex/latex/algorithms/algorithm.sty
+Package: algorithm 
+
+Document Style `algorithm' - floating environment
+(/usr/local/texlive/2008/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count135
+\float@exts=\toks24
+\float@box=\box36
+\@float@everytoks=\toks25
+\@floatcapt=\box37
+)
+\@float@every@algorithm=\toks26
+\c@algorithm=\count136
+)
+(/usr/local/texlive/2008/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip63
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2008/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2008/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks27
+\ex@=\dimen167
+))
+(/usr/local/texlive/2008/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen168
+)
+(/usr/local/texlive/2008/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count137
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count138
+\leftroot@=\count139
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count140
+\DOTSCASE@=\count141
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box38
+\strutbox@=\box39
+\big@size=\dimen169
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count142
+\c@MaxMatrixCols=\count143
+\dotsspace@=\muskip11
+\c@parentequation=\count144
+\dspbrk@lvl=\count145
+\tag@help=\toks28
+\row@=\count146
+\column@=\count147
+\maxfields@=\count148
+\andhelp@=\toks29
+\eqnshift@=\dimen170
+\alignsep@=\dimen171
+\tagshift@=\dimen172
+\tagwidth@=\dimen173
+\totwidth@=\dimen174
+\lineht@=\dimen175
+\@envbody=\toks30
+\multlinegap=\skip64
+\multlinetaggap=\skip65
+\mathdisplay@stack=\toks31
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/usr/local/texlive/2008/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2002/01/22 v2.2d
+
+(/usr/local/texlive/2008/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2001/10/25 v2.2f
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 132.
+))
+(/usr/local/texlive/2008/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2004/08/06 v2.20
+\thm@style=\toks32
+\thm@bodyfont=\toks33
+\thm@headfont=\toks34
+\thm@notefont=\toks35
+\thm@headpunct=\toks36
+\thm@preskip=\skip66
+\thm@postskip=\skip67
+\thm@headsep=\skip68
+\dth@everypar=\toks37
+)
+\c@mydef=\count149
+
+(/usr/local/texlive/2008/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2008/11/11 v2.3c Micro-typography with pdfTeX (RS)
+\MT@toks=\toks38
+\MT@count=\count150
+LaTeX Info: Redefining \lsstyle on input line 1585.
+LaTeX Info: Redefining \lslig on input line 1585.
+\MT@outer@space=\skip69
+LaTeX Info: Redefining \textls on input line 1586.
+\MT@outer@kern=\dimen176
+LaTeX Info: Redefining \textmicrotypecontext on input line 2126.
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(/usr/local/texlive/2008/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2008/11/11 v2.3c microtype main configuration file (RS)
+))
+(/usr/local/texlive/2008/texmf-dist/tex/latex/fixme/fixme.sty
+Package: fixme 2007/11/28 v3.3 Insert fixme notes in your documents
+
+(/usr/local/texlive/2008/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks39
+\verbatim@line=\toks40
+\verbatim@in@stream=\read1
+)
+\c@fixmecount=\count151
+\c@fixmenotecount=\count152
+\c@fixmewarningcount=\count153
+\c@fixmeerrorcount=\count154
+\c@fixmefatalcount=\count155
+)
+(/usr/local/texlive/2008/texmf-dist/tex/latex/lastpage/lastpage.sty
+Package: lastpage 1994/06/25 v0.1b LaTeX2e package for refs to last page number
+ (JPG)
+)
+(/usr/local/texlive/2008/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2008/08/24 v3.1j Customizing captions (AR)
+
+(/usr/local/texlive/2008/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2008/08/24 v3.1j caption3 kernel (AR)
+\captionmargin=\dimen177
+\captionmargin@=\dimen178
+\captionwidth=\dimen179
+\caption@indent=\dimen180
+\caption@parindent=\dimen181
+\caption@hangindent=\dimen182
+)
+\c@ContinuedFloat=\count156
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: subfigure package is loaded.
+)
+(/usr/local/texlive/2008/texmf-dist/tex/latex/todonotes/todonotes.sty
+Package: todonotes 2009/01/09 .dtx Todonotes source and documentation.
+Package: todonotes 2009/01/09
+
+(/usr/local/texlive/2008/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2008/08/13 v2.6a package option processing (HA)
+
+(/usr/local/texlive/2008/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+\XKV@toks=\toks41
+\XKV@tempa@toks=\toks42
+\XKV@depth=\count157
+File: xkeyval.tex 2008/08/13 v2.6a key=value parser (HA)
+))
+\c@@todonotes@numberoftodonotes=\count158
+))
+(/usr/local/texlive/2008/texmf-dist/tex/latex/preprint/fullpage.sty
+Package: fullpage 1999/02/23 1.1 (PWD)
+\FP@margin=\skip70
+)
+\@indexfile=\write4
+\openout4 = `exam.idx'.
+
+
+Writing index file exam.idx
+(./exam.aux)
+\openout1 = `exam.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+\c@lstlisting=\count159
+ (/usr/local/texlive/2008/texmf-dist/tex/context/base/supp-pdf.tex
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count160
+\scratchdimen=\dimen183
+\scratchbox=\box40
+\nofMPsegments=\count161
+\nofMParguments=\count162
+\everyMPshowfont=\toks43
+\MPscratchCnt=\count163
+\MPscratchDim=\dimen184
+\MPnumerator=\count164
+\everyMPtoPDFconversion=\toks44
+)
+Package hyperref Info: Link coloring ON on input line 23.
+ (/usr/local/texlive/2008/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
+
+(/usr/local/texlive/2008/texmf-dist/tex/latex/oberdiek/refcount.sty
+Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
+)
+\c@section@level=\count165
+)
+LaTeX Info: Redefining \ref on input line 23.
+LaTeX Info: Redefining \pageref on input line 23.
+
+(./exam.out) (./exam.out)
+\@outlinefile=\write5
+\openout5 = `exam.out'.
+
+\AtBeginShipoutBox=\box41
+LaTeX Info: Redefining \microtypecontext on input line 23.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 4, non-selected.
+Package microtype Info: Using default expansion set `basictext'.
+Package microtype Info: No tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+
+(/usr/local/texlive/2008/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2008/02/29 v1.9a microtype config. file: Computer Modern Roman
+ (RS)
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Try loading font information for U+msa on input line 26.
+
+(/usr/local/texlive/2008/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2002/01/19 v2.2g AMS font definitions
+)
+(/usr/local/texlive/2008/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 26.
+
+(/usr/local/texlive/2008/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2002/01/19 v2.2g AMS font definitions
+)
+(/usr/local/texlive/2008/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 26.
+
+(/usr/local/texlive/2008/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+<figures/q1.png, id=10, 578.16pt x 433.62pt>
+File: figures/q1.png Graphic file (type png)
+ <use figures/q1.png> [1
+
+{/usr/local/texlive/2008/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./figur
+es/q1.png (PNG copy)>] <figures/q2-5.png, id=32, 578.16pt x 433.62pt>
+File: figures/q2-5.png Graphic file (type png)
+
+<use figures/q2-5.png> <figures/q2-1.png, id=33, 578.16pt x 433.62pt>
+File: figures/q2-1.png Graphic file (type png)
+
+<use figures/q2-1.png>
+Overfull \hbox (19.9951pt too wide) in paragraph at lines 68--69
+ [][] 
+ []
+
+<figures/q2-2.png, id=35, 578.16pt x 433.62pt>
+File: figures/q2-2.png Graphic file (type png)
+ <use figures/q2-2.png> [2 <./figures/q2-5.png (PNG copy)> <./figures/q2-1.png 
+(PNG copy)>] [3 <./figures/q2-2.png (PNG copy)>] <figures/q2-3.png, id=63, 578.
+16pt x 433.62pt>
+File: figures/q2-3.png Graphic file (type png)
+
+<use figures/q2-3.png> <figures/q2-4.png, id=64, 578.16pt x 433.62pt>
+File: figures/q2-4.png Graphic file (type png)
+
+<use figures/q2-4.png>
+Overfull \hbox (19.9951pt too wide) in paragraph at lines 114--115
+ [][] 
+ []
+
+[4 <./figures/q2-3.png (PNG copy)> <./figures/q2-4.png (PNG copy)>] [5]
+[6] [7] [8] [9] (./exam.bbl
+./exam.bbl:21: You can't use `macro parameter character #' in horizontal mode.
+l.21 http://www.csie.ntu.edu.tw/ cjlin/libsvm/#
+                                               matlab, april 2011.
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+) [10]
+
+Package FiXme Summary: Number of notes: 0,
+(FiXme)                Number of warnings: 0,
+(FiXme)                Number of errors: 0,
+(FiXme)                Number of fatal errors: 0,
+(FiXme)                Total: 0.
+
+AED: lastpage setting LastPage (./exam.aux) ) 
+Here is how much of TeX's memory you used:
+ 17628 strings out of 493876
+ 299248 string characters out of 1150568
+ 397938 words of memory out of 3000000
+ 20338 multiletter control sequences out of 10000+50000
+ 23589 words of font info for 92 fonts, out of 3000000 for 5000
+ 714 hyphenation exceptions out of 8191
+ 54i,9n,73p,547b,439s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/local/texlive/2008/texmf-dis
+t/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2008/texmf-dist/
+fonts/type1/bluesky/cm/cmex10.pfb></usr/local/texlive/2008/texmf-dist/fonts/typ
+e1/bluesky/cm/cmmi10.pfb></usr/local/texlive/2008/texmf-dist/fonts/type1/bluesk
+y/cm/cmmi7.pfb></usr/local/texlive/2008/texmf-dist/fonts/type1/bluesky/cm/cmmi8
+.pfb></usr/local/texlive/2008/texmf-dist/fonts/type1/bluesky/cm/cmr10.pfb></usr
+/local/texlive/2008/texmf-dist/fonts/type1/bluesky/cm/cmr5.pfb></usr/local/texl
+ive/2008/texmf-dist/fonts/type1/bluesky/cm/cmr7.pfb></usr/local/texlive/2008/te
+xmf-dist/fonts/type1/bluesky/cm/cmr8.pfb></usr/local/texlive/2008/texmf-dist/fo
+nts/type1/bluesky/cm/cmsy10.pfb></usr/local/texlive/2008/texmf-dist/fonts/type1
+/bluesky/cm/cmsy7.pfb></usr/local/texlive/2008/texmf-dist/fonts/type1/bluesky/c
+m/cmsy8.pfb></usr/local/texlive/2008/texmf-dist/fonts/type1/bluesky/ams/msbm10.
+pfb></usr/local/texlive/2008/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pf
+b></usr/local/texlive/2008/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb>
+</usr/local/texlive/2008/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></
+usr/local/texlive/2008/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></us
+r/local/texlive/2008/texmf-dist/fonts/type1/public/cm-super/sfcc1000.pfb></usr/
+local/texlive/2008/texmf-dist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/lo
+cal/texlive/2008/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/loca
+l/texlive/2008/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/
+texlive/2008/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/te
+xlive/2008/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texl
+ive/2008/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb></usr/local/texliv
+e/2008/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
+Output written on exam.pdf (10 pages, 560512 bytes).
+PDF statistics:
+ 256 PDF objects out of 1000 (max. 8388607)
+ 65 named destinations out of 1000 (max. 131072)
+ 24119 words of extra memory for PDF output out of 24883 (max. 10000000)
+

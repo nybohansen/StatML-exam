@@ -1,0 +1,52 @@
+\begin{thebibliography}{10}
+
+\bibitem{Bishop:2006:PRM:1162264}
+C.~M. Bishop.
+\newblock {\em Pattern Recognition and Machine Learning (Information Science
+  and Statistics)}.
+\newblock Springer-Verlag New York, Inc., Secaucus, NJ, USA, 2006.
+
+\bibitem{DBLP:journals/corr/abs-0804-4809}
+P.~Courrieu.
+\newblock Fast computation of moore-penrose inverse matrices.
+\newblock {\em CoRR}, abs/0804.4809, 2008.
+
+\bibitem{resultsURL}
+http://benchmark.ini.rub.de/index.php?section=results, april 2011.
+
+\bibitem{hunch}
+http://hunch.net/?p=22, april 2011.
+
+\bibitem{libsvm}
+http://www.csie.ntu.edu.tw/ cjlin/libsvm/#matlab, april 2011.
+
+\bibitem{LDAslides}
+C.~Igel.
+\newblock Teaching material. linear classification statistical methods for
+  machine learning.
+\newblock February 2011.
+
+\bibitem{assignment2}
+C.~Igel and K.~S. Pedersen.
+\newblock Assignment 2: Basic learning algorithms.
+\newblock February 2011.
+
+\bibitem{assignment3}
+C.~Igel and K.~S. Pedersen.
+\newblock Assignment 3: Neural networks and support vectpr machines.
+\newblock March 2011.
+
+\bibitem{assignment}
+C.~Igel and K.~S. Pedersen.
+\newblock Statistical methods for machine learning. final exam assignment.
+  recognition of traffic signs.
+\newblock March 2011.
+
+\bibitem{Wu07doi10.1007/s10115-007-0114-2}
+X.~Wu, V.~Kumar, J.~Ross, Q.~Joydeep, G.~Q. Yang, H.~Motoda, G.~J. Mclachlan,
+  A.~Ng, B.~Liu, P.~S. Yu, D.~Steinberg, X.~W. (b, V.~Kumar, J.~R. Quinlan,
+  J.~Ghosh, Q.~Yang, and H.~Motoda.
+\newblock Doi 10.1007/s10115-007-0114-2 survey paper top 10 algorithms in data
+  mining, 2007.
+
+\end{thebibliography}
