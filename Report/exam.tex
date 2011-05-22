@@ -27,7 +27,6 @@
 
 \section*{Question 1} % (fold)
 \label{sec:question_1}
-
 The downloaded dataset contains $26640$ vector samples, where each vector is of dimension $1568 \times 1$. The $26640$ samples is distributed throughout $43$ classes, where each class is a different traffic sign. The samples are HOG features of the observed traffic sign.
 
 Each folder in the downloaded dataset, \texttt{HOG_01}, corresponds to one class. Each file corresponds to one sample. The number of samples, are not equal distributed throughout the classes. I.e. the number of samples taken from each of the $43$ traffic signs are not equal. Figure \ref{fig1} shows the \emph{normalized} histogram of the class frequencies found in the dataset.
@@ -39,7 +38,8 @@ Each folder in the downloaded dataset, \texttt{HOG_01}, corresponds to one class
 \label{fig1}
 \end{figure}
 
-The source code to this question can be found in the files \texttt{loadDataSet}, \texttt{initializaDataSet.m} and \texttt{q1.m}. All of the following implementations, assume that \texttt{initializaDataSet.m} has been run.
+
+All programming assignments in this exam set is done in MATLAB. The source code to this question can be found in the files \texttt{loadDataSet}, \texttt{initializaDataSet.m} and \texttt{q1.m}. All of the following implementations, assume that \texttt{initializaDataSet.m} has been run.
 
 % section question_1 (end)
 
@@ -131,19 +131,28 @@ In this question I will relate the different types of overfitting described in h
 
 \textbf{Brittle measure} can occur if we instead of $5$-fold cross validation, did $n$-fold cross validation, where $n$ is the number of samples. This type of cross validation is also known as \emph{Leave-one-out cross-validation}.
 
-\textbf{Incomplete Prediction} can occur if we used the models found in the binary classification, to do multi-class classification.
+\textbf{Incomplete Prediction} can occur if we made multiple binary classification models and uses these in the multi-class classification.
 
 \textbf{Data set selection} The following example explains how data set selection can can occur in this assignment. Let the performance of the $k-$NN be very good in one of the folds in the $5$-fold cross validation. We then choose this whole subset as the test set thereby improving the overall results.                                                                                                                                              
 
-I don't see how the following methods of overfitting can occur: \textbf{Bad statistics}, \textbf{Human-loop overfitting}, \textbf{Choice of measure} and \textbf{reprobleming} in this exam assignment. It is hard to do reprobleming, since the assignment text is very explicit. There is no humans involved in the training nor testing phase, so Human-loop overfitting seems impossible. 
-Choice of measure can occur if the accuracy calculation is improved when changing the way the accuracy is calculated. In this assignment we are primarily working with classification. This means that the accuracy is based on the misclassifications. I don't see how we can change the accuracy calculation.                                                                     
+\textbf{Choice of measure} can occur if the accuracy calculation is improved when changing the way the accuracy is calculated. In this assignment we are primarily working with classification. This means that the accuracy is based on the misclassifications. I don't see how we can change this accuracy calculation. In the regression assignment, one could use the sum of squares as the error measurement - this would lead to some awkward results possible improving the accuracy.
+
+Since the dataset is almost new\cite{dataURL}, I don't see how the \textbf{Old datasets} method of overfitting can occur. 
+
+Furthermore I don't see how the following methods of overfitting can occur: \textbf{Bad statistics}, \textbf{Human-loop overfitting} and \textbf{reprobleming} in this exam assignment. It is hard to do reprobleming, since the assignment text is very explicit. There is no humans involved in the training nor testing phase, so Human-loop overfitting seems impossible. \\
 
 % section question_4 (end)
 
 
+                      
+The following questions (question 5-8) regards classification. Classification, is the task of labeling a unknown sample from known samples containing labels. It is a supervised learning task, since we use prior knowledge (knowledge of the labels of the training set).
+
+
 \section*{Question 5} % (fold)
 \label{sec:question_5}
-In this question I have filtered the training set, such that only the classes 1 and 5 are present.
+
+In this question I have filtered the training set, such that only the classes 1 and 5 are present. 
+
 \subsection*{Cross-validation} % (fold)
 \label{sub:cross_validation}
 Each physical traffic sign has $30$ sample vectors present in the dataset. This causes problems, because this can lead to overoptimistic results. Although we are not given the details of the HOG features, it is clear that the $30$ sample vectors taken from the same physical traffic sign is positioned close together in the $1568$ dimensional space. 
@@ -170,7 +179,9 @@ The accuracy is measured as
 \label{sub:linear_classification}
 I have chosen Linear Discriminant Analysis (LDA) as my linear classification method. I have chosen this method because it gives good result in practice and is highly recommended as a baseline method\cite{LDAslides}. 
 
-In group assignment 2, we made a LDA implementation\cite{assignment2}. I tried solving the classification problem with this implementation, but the performance was very bad. Instead I substituted my own implementation with the MATLAB function \texttt{classify} and the results where very much improved. The result of doing binary classification with MATLAB's LDA implementation can be seen in table \ref{table10}. The table shows the accuracy for each of the $5$-folds cross validation runs, and the mean accuracy.
+In group assignment 2, we made a LDA implementation\cite{assignment2}. I tried solving the classification problem with this implementation, but the performance was very bad. Instead I substituted my own implementation with the MATLAB function \texttt{classify} and the results where very much improved. The result of doing binary classification with MATLAB's LDA implementation can be seen in table \ref{table10}. The table shows the accuracy for each of the $5$-folds cross validation runs, and the mean accuracy. 
+
+As can be seen from the table, the LDA has $\approx 88\%$ accuracy, which must be considered quite good.
 
 \begin{table}
   \begin{center}  
@@ -187,14 +198,12 @@ In group assignment 2, we made a LDA implementation\cite{assignment2}. I tried s
       Mean accuracy &  0.88500\\
       \hline
     \end{tabular}
-    \caption{Table showing the accuracy over a $5$-fold cross validation when running LDA on the entire test dataset.}
+    \caption{Accuracy over a $5$-fold cross validation when running LDA on the training set.}
     \label{table10}
   \end{center}    
 \end{table}   
 
 The source code to this part of the assignment can be found in \texttt{q5\_1.m}.
-
-\todo{Explain LDA}
 
 % subsection linear_classification (end)
 
@@ -239,7 +248,7 @@ For finding the appropriate SVM hyperparameters I have made a grid search. The g
     \label{table4}
   \end{center}    
 \end{table}   
-As can be seen from table \ref{table4} the model is most accurate when $i=1$ and $C=10$. The accuracy when running the model with these hyperparameters is $\approx 93\%$.
+As can be seen from table \ref{table4} the model is most accurate when $i=1$ and $C=10$. The accuracy when running the model with these hyperparameters is $\approx 93\%$. Which is better than the accuracy of the LDA.
 
 The source code to this part of the assignment can be found in \texttt{q5\_2.m} and \texttt{calcSVMModel.m}. Note the implemented code needs the LIBSVM framework\cite{libsvm}. 
 % subsection non_linear_classification (end)
@@ -254,7 +263,7 @@ For this question, I have chosen to use linear description method (LDA) as my li
 \subsection*{Linear classification} % (fold)
 \label{sub:linear_classification2}
 
-For my linear classifier I have chosen to use LDA, again using the MATLAB function \texttt{classify}. The result of running the LDA can be seen in table \ref{table3}.
+For my linear classifier I have chosen to use LDA, again using the MATLAB function \texttt{classify}. The result of running the LDA can be seen in table \ref{table3}. Again the LDA performs quite good, and has an accuracy of $\approx 92\%$. 
 
 \begin{table}
   \begin{center}  
@@ -271,10 +280,13 @@ For my linear classifier I have chosen to use LDA, again using the MATLAB functi
       Average &  0.92686 \\
       \hline
     \end{tabular}
-    \caption{Table showing the average accuracy over a $5$-fold cross validation when running LDA on the entire test dataset.}
+    \caption{Table showing the average accuracy over a $5$-fold cross validation when running LDA on the entire training dataset.}
     \label{table3}
   \end{center}    
 \end{table}   
+
+
+
 
 The source code to this question can be found in the file \texttt{q6\_1.m}.
 
@@ -289,7 +301,7 @@ The algorithm works as follows. The user specifies a $k$ to the algorithm and a 
 
 K nearest neighbor is a lazy algorithm. This mean that the algorithm doesn't create a model for the training set. 
 
-$k$ is a parameter that can be tweaked to suit the dataset. In order to find an appropiate $k$ i have done $5$-fold cross validation, on different $k$ values. The result can be seen in table \ref{table2}. Each row in the table corresponds to a $5$-fold cross validation with the $k$ specified in column 1. As can be seen the most accurate result is archieved when $k=20$
+$k$ is a parameter that can be tweaked to suit the dataset. In order to find an appropiate $k$ i have done $5$-fold cross validation, on different $k$ values. The result can be seen in table \ref{table2}. Each row in the table corresponds to a $5$-fold cross validation with the $k$ specified in column 1. As can be seen the most accurate result is archieved when $k=20$. The $k$-NN has an accuracy of $71\%$ when $k=20$. This is not as good as the LDA, but still reasonable. 
 
 \begin{table}
   \begin{center}  
@@ -310,7 +322,7 @@ $k$ is a parameter that can be tweaked to suit the dataset. In order to find an 
       250    &     0.66310\\        
       \hline
     \end{tabular}
-    \caption{Table showing the average accuracy over a $5$-fold cross validation when running $k-$NN with different $k$'s on the entire test dataset. As can be seen, $k=20$ yields the best accuracy.}
+    \caption{Average accuracy over a $5$-fold cross validation when running $k-$NN with different $k$'s. As can be seen, $k=20$ yields the best accuracy.}
     \label{table2}
   \end{center}    
 \end{table}   
@@ -329,7 +341,7 @@ The following sub sections elaborate on the results.
 
 \subsection*{Testing binary classification using LDA} % (fold)
 \label{sub:binary_classification}
-In the testing phase, the $5$-fold cross validation yielded a mean accuracy of $0.88500$. I have testet the implementation on the test set by using the whole training set as training, and the test set as test. The result is a average accuracy of $0.92196$. The classifier actually performs $3.596\%$ better on the test set than the training set. 
+In the training phase, the $5$-fold cross validation yielded a mean accuracy of $0.88500$. I have testet the implementation on the test set by using the whole training set as training, and the test set as test. The result is a average accuracy of $0.92196$. The classifier actually performs $3.596\%$ better on the test set than the training set. 
 
 The source code to this question can be found in \texttt{q7\_1.m}.
 
@@ -363,9 +375,9 @@ The source code to this question can be found in \texttt{q7\_4.m}.
 \subsection*{Overall performance} % (fold)
 \label{sub:overall_performance}
 
-All the implementations performed better on the testing data, than the training data. One possible explanation for this behavior could be, that we use the whole test set as the testing data, thereby dramatically increasing the number of training points.
+All of the implementations performed better on the testing data, than the training data. One possible explanation for this behavior could be, that we use the whole test set as the testing data, thereby dramatically increasing the number of training points.
 
-It comes to no surprise that the LDA implementations archives a high degree of accuracy. Looking at the results page of the \emph{The German Traffic Sign Recognition Benchmark}\cite{resultsURL} the combination of LDA and the \texttt{HOG01} test set is scoring high.
+It comes to no surprise that the LDA implementations archives a high degree of accuracy. Looking at the results page of the \emph{The German Traffic Sign Recognition Benchmark}\cite{resultsURL} the combination of LDA and the \texttt{HOG01} dataset is scoring high.
 
 What comes as a surprise, is how good the $k-$NN implementation performs, compared to how simple it is. Even in the multi-class classification the $k-$NN archives an accuracy of $76\%$.
 % subsection overall_performance (end)
@@ -375,9 +387,9 @@ What comes as a surprise, is how good the $k-$NN implementation performs, compar
 \section*{Question 8} % (fold)
 \label{sec:question_8}
 
-I have used linear regression to solve the binary classification and multi-class classification problem. In both cases i have used $5$-fold cross validation and partitioned the data as explained in question 5. Furthermore I have calculated the accuracy as explained in question 5. I have done this so I can compare the results with the one from question 5 and 6.
+I have used linear regression to solve the binary classification and multi-class classification problem. In both cases i have used $5$-fold cross validation on the training set, and partitioned the data as explained in question 5. Furthermore I have calculated the accuracy as explained in question 5. I have done this so I can compare the results with the one from question 5 and 6.
 
-I have constructed the design matrix as defined in Bishop\cite{Bishop:2006:PRM:1162264} 3.16. Each row of the design matrix is a sample vector. The \emph{Moore-Penrose pseudo inverse} of the design matrix is calculated, and the maximum likelihood is calculated as defined in Bishop 3.15. Finally the model is applied to each test set as defined in 3.3 of Bishop. 
+I have constructed the design matrix as defined in Bishop\cite{Bishop:2006:PRM:1162264} 3.16. Each row of the design matrix is a sample vector. The \emph{Moore-Penrose pseudo inverse} of the design matrix is calculated, and the maximum likelihood is calculated as defined in Bishop 3.15. Finally the model is applied to the training set as defined in 3.3 of Bishop. 
 
 The \emph{Moore-Penrose pseudo inverse} is computational expensive to calculate. In order to speed things up, I have used a alternative implementation taken from\cite{DBLP:journals/corr/abs-0804-4809}. The optimized Moore-Penrose pseudo inverse function can be found in the file \texttt{geninv.m}.
 
@@ -398,7 +410,7 @@ The result can be seen in table \ref{table1}.
       Average &  0.88760  &  0.11224\\
       \hline      
     \end{tabular}
-    \caption{Performance of using linear regression when doing binary and multi-class classification. In average the classifier is correct in $\approx 88\%$ of the cases when doing binary classification, and $\approx 11\%$ when doing multi-class classification.}
+    \caption{Performance of using linear regression to do binary and multi-class classification. In average the classifier is correct in $\approx 88\%$ of the cases when doing binary classification, and $\approx 11\%$ when doing multi-class classification.}
     \label{table1}
   \end{center}    
 \end{table}   

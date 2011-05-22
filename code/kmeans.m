@@ -20,6 +20,7 @@ centroids = newCentroids+1;
 
 data = [zeros(1,N); data];
 
+%We don't have infinite preccision, epsilon neccesary 
 while norm(newCentroids - centroids)>epsilon
     centroids = newCentroids;
     for i=1 : N
