@@ -11,8 +11,6 @@ clear all;
 sampleSize = 30;
 
 k = 5;
-%From 1 to maximum K in knn
-maxK = 50;
 
 dataMatrix = load('../../Data/trainingData.mat');
 dataMatrix = dataMatrix.dataMatrix;

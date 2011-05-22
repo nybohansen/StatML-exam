@@ -85,9 +85,8 @@ print('-dpng','../Report/Figures/q2-2.png');
 
 
 %% Q3 K-means
-%K-means with quality quess
+%Two random initialisations
 [centroids1 data1] = kmeans(B,4,0.1);
-
 [centroids2 data2] = kmeans(B,4,0.1);
 
 
@@ -99,6 +98,7 @@ scatter(Y(2,diamond),Y(3,diamond),'bd')
 scatter(Y(2,downwardsTriangle),Y(3,downwardsTriangle),'yv')
 scatter(Y(2,octagon),Y(3,octagon),'ch')
 
+%Project on to PCA
 Y1 = eigenVectors(:,1:2)'*centroids1;
 scatter(Y1(1,:),Y1(2,:), 75, 'k', 'filled');
 title({'Scatter plot of the first two PCA components', 'including the kmeans centers (Random initialization of centroids)'});
@@ -118,6 +118,7 @@ scatter(Y(2,diamond),Y(3,diamond),'bd')
 scatter(Y(2,downwardsTriangle),Y(3,downwardsTriangle),'yv')
 scatter(Y(2,octagon),Y(3,octagon),'ch')
 
+%Project on to PCA
 Y2 = eigenVectors(:,1:2)'*centroids2;
 scatter(Y2(1,:),Y2(2,:), 75, 'k', 'filled');
 title({'Scatter plot of the first two PCA components', 'including the kmeans centers (Random initialization of centroids)'});
